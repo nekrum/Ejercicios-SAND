@@ -17,5 +17,5 @@ Adaptación a Rnotebook del archivo **Networks_Book_R_week1.R**
 - [Ejercicios_SAND_1-2.nb.html](Ejercicios_SAND_1-2.nb.html)
 Página HTML resultado del Rnotebook (se puede visualizar en el navegador)
 
-- [Ejerciciop-Ecoli.R](Ejerciciop-Ecoli.R)
+- [Ejercicio-Ecoli.R](Ejercicio-Ecoli.R)
 Script de manejo de base E. coli creado por Sebastián
