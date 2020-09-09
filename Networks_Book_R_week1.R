@@ -34,17 +34,21 @@ print_all(dg2)
 V(dg)$name <- c("Sam", "Mary", "Tom")
 
 # Representations for Graphs
-# Adjacency list representation
-graph.adjlist()
+# Adjacency list representation - not working
+#graph.adjlist()
 
 # Edge list representation
 E(dg2)
 get.edgelist(dg2)
-graph.edgelist(dg2)
+
+# Not working
+#graph.edgelist(dg2)
 
 # Adjacency representation
 as_adjacency_matrix(g)
-graph.adjacency(g)
+
+# Not working
+#graph.adjacency(g)
 
 # Operations on Graphs
 #Obtaining a subgraph
@@ -59,7 +63,7 @@ h <- h + vertices(c(6,7))
 g <- h + edges(c(4,6),c(4,7),c(5,6),c(6,7))
 print_all(g)
 
-# Applying union to obatin a graph
+# Applying union to obtain a graph
 h1 <- h
 h2 <- graph_from_literal(4-6, 4-7, 5-6, 6-7)
 g <- union(h1,h2)
@@ -106,7 +110,7 @@ vertex_attr_names(g.lazega)
 
 # Talking about graphs
 # Basic graph concepts
-# Veerifying if a graph is simple
+# Verifying if a graph is simple
 is_simple(g)
 
 # Converting g to a multi-graph (loops and multi-edges)
